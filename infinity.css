@@ -29,3 +29,16 @@ ul li a {
     color: black;
     margin-inline: 22px;
 }
+
+ul li a:hover{
+    color: rgb(125, 182, 12);
+    border-bottom: 1px solid rgb(125, 182, 12) ;
+}
+
+#bar{
+    display: none;
+}
+
+.logo{
+    font-size: 23px;
+}
