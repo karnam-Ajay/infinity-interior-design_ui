@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'Roboto','sans-serif';
-    background-color: #e0e0e0;
+    background-color:white;
 }
 
 nav{
@@ -57,5 +57,77 @@ ul li a:hover{
     margin-top: 140px;
     margin-left: 66px;
     font-size: 23px;
-    color: white
+    color: black;
+    font-family: cursive;
+}
+
+.mainButton{
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    margin-top: 24px;
+    background-color: yellowgreen;
+    color: white;
+    cursor: pointer;
+}
+
+.head{
+    text-align: center;
+    padding: 80px;
+}
+
+.serviceCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.serviceCards .card{
+    width: 340px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-inline: 20px;
+    margin-top: 22px;
+}
+
+.card img{
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+}
+.card p{
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projectCard {
+    width: 340px;
+    height: 350px;
+    background-color: #fff;
+    margin-inline: 20px;
+    border-radius: 6px;
+    margin-top: 22px;
+}
+
+.projectCard img{
+    width: 100%;
+    height: 200px;
+    border-radius: 6px;
+
+}
+.projectCard h3{
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.projectCard p{
+    margin-top: 11px;
+    margin-left: 11px;
 }
